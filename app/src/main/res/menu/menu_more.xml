@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.grudzina_bakowski.Fryzjer.MainActivity">
+    <item
+        android:id="@+id/action_opcje"
+        android:orderInCategory="102"
+        android:title="@string/action_opcje"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="103"
+        android:title="About Us"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Salon Fiona</string>
+    <string name="action_opcje">Opcje</string>
+    <string name="action_portfolio">Portfolio</string>
+    <string name="tab_zaloguj">Zaloguj</string>
+    <string name="tab_wizyty">Wizyty</string>
+    <string name="tab_cennik">Cennik</string>
+    <string name="button_historiawizyt">Historia wizyt</string>
+    <string name="button_mojewizyty">Moje wizyty</string>
+    <string name="button_umowwizyte">Umów wizytę</string>
+    <string name="fb_link">Polub Salon Fiona na Facebook </string>
+
+    <string name="facebook_app_id">344286246117561</string>
+    <string name="fb_login_protocol_scheme">fb344286246117561</string>
+
+    <!-- ABOUT US -->
+    <string name="aboutus_title">\nSALON FRYZJERSKI "FIONA"</string>
+    <string name="aboutus_celaplikacji">\n\t\tAplikacji powstała w celu ułatwienia procesu umawiania wizyt na usługi w salonie fryzjerskim Fiona\n</string>
+    <string name="aboutus_kontakt">\nKontakt:\n\t\t\tSalon fryzjerski Fiona:\n\t\t\t\t
+        tel: 531 109 716\n\t\t\t
+    Twórcy aplikacji:\n\t\t\t\t\t
+    Wiktor Grudzina: \n\t\t\t\t\t\t
+    email: w.grudzina@gmail.com \n\n\t\t\t\t\t
+    Krystian Bąkowski: \n\t\t\t\t\t\t
+    email: krystian.bakowskiv8@wp.pl</string>
+
+    <string name="title_activity_fullimage">Fullimage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main_admin">MainActivityAdmin</string>
+</resources>

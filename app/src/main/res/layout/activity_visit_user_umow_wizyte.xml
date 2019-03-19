@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VisitUserViewActivities.VisitUserUmowWizyteActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_dark"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ToolBarStyle"
+            app:title="Umów wizytę" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.example.grudzina_bakowski.Fryzjer.WidgetTemplates.NonSwipeableViewPager
+        android:id="@+id/setVisitViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false">
+
+    </com.example.grudzina_bakowski.Fryzjer.WidgetTemplates.NonSwipeableViewPager>
+
+</LinearLayout>

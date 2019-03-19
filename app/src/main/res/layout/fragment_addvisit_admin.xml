@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CalendarView
+                android:id="@+id/calendarViewAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_button_round_soft" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/divider"
+                    android:foregroundGravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Nazwa usługi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/hBeg"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginLeft="20dp"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:foregroundGravity="right"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:inputType="number" />
+
+                            <TextView
+                                android:id="@+id/textView19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="-10dp"
+                                android:layout_marginRight="-10dp"
+                                android:layout_weight="1"
+                                android:foregroundGravity="center"
+                                android:gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text=":"
+                                android:textSize="24sp" />
+
+                            <EditText
+                                android:id="@+id/minBeg"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:gravity="center_horizontal"
+                                android:inputType="number" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-10dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="Początek" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/hEnd"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginLeft="20dp"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:foregroundGravity="right"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:inputType="number" />
+
+                            <TextView
+                                android:id="@+id/textView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="-10dp"
+                                android:layout_marginRight="-10dp"
+                                android:layout_weight="1"
+                                android:foregroundGravity="center"
+                                android:gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text=":"
+                                android:textSize="24sp" />
+
+                            <EditText
+                                android:id="@+id/minEnd"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:gravity="center_horizontal"
+                                android:inputType="number" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-10dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="Koniec" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Cena" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Imię" />
+
+                <Button
+                    android:id="@+id/buttonAddVisit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/background_button_round_hard"
+                    android:foregroundGravity="center_vertical|center_horizontal|center"
+                    android:gravity="center"
+                    android:text="dodaj wizytę"
+                    android:textColor="@drawable/button_round_hard_behaviour" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingBottom="20dp">
+
+            </ScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

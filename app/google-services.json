@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "602003294935",
+    "firebase_url": "https://fryzier-ffdbd.firebaseio.com",
+    "project_id": "fryzier-ffdbd",
+    "storage_bucket": "fryzier-ffdbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602003294935:android:56f964fc8d0afc77",
+        "android_client_info": {
+          "package_name": "com.example.grudzina_bakowski.fryzier2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602003294935-sk743o778s727injq6mp3gh5t9nqchdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHwifEKHvJkP31knQ4dWl3JC1dS4zh9b4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

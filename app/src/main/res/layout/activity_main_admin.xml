@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_dark"
+                app:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:foregroundGravity="center_vertical|center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tabPanel_admin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        app:tabBackground="@color/primary_dark"
+                        app:tabIndicatorColor="@color/primary_light"
+                        app:tabSelectedTextColor="@color/accent"
+                        app:tabTextColor="@color/primary_light">
+
+                        <android.support.design.widget.TabItem
+                            android:id="@+id/terminarz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="terminarz" />
+
+                        <android.support.design.widget.TabItem
+                            android:id="@+id/cennik"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tab_cennik" />
+
+                        <android.support.design.widget.TabItem
+                            android:id="@+id/addVisit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wizyty" />
+
+                    </android.support.design.widget.TabLayout>
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:background="@color/primary_dark"
+                        android:minHeight="?attr/actionBarSize"
+
+                        android:paddingEnd="20dp"
+                        android:theme="?attr/actionBarTheme" />
+
+                </LinearLayout>
+
+            </android.support.design.widget.AppBarLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_admin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

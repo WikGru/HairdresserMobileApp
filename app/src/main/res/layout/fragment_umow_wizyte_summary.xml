@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Usługa:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Data:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Godzina:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_pricerange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Cena:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/imie_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/text_username2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Imię" />
+
+        <Button
+            android:id="@+id/nextButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/background_button_round_hard"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Zarezerwuj wizytę"
+            android:textColor="@drawable/button_round_hard_behaviour" />
+
+        <TextView
+            android:id="@+id/spacer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="EDYTUJ CENNIK"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/serviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:foregroundGravity="fill_horizontal"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:gravity="center_horizontal"
+            android:text="Nazwa usługi" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="CENA"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/priceShort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:foregroundGravity="fill_horizontal"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Włosy krótkie (zł)" />
+
+        <EditText
+            android:id="@+id/priceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:foregroundGravity="fill_horizontal"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Włosy średnie (zł)" />
+
+        <EditText
+            android:id="@+id/priceLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:foregroundGravity="fill_horizontal"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Włosy długie (zł)" />
+
+        <EditText
+            android:id="@+id/serviceTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:foregroundGravity="fill_horizontal"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Średni czas trwania usługi\n(min)" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:clipToPadding="false"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDeletePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_round_hard"
+            android:text="USUń"
+            android:textColor="@drawable/button_round_hard_behaviour" />
+
+        <Button
+            android:id="@+id/buttonSavePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_round_hard"
+            android:text="Zapisz"
+            android:textColor="@drawable/button_round_hard_behaviour" />
+
+    </LinearLayout>
+
+</RelativeLayout>
